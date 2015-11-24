@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String[] favoriteTVShows = {"Star Trek","Star Trek TNG","Star Trek DSN","Star Trek Voyager",
-                "Andromeda","Babylon 5","Simpsons","Afro Samurai","Ninja Scroll","Assassin"};   //data to put in ListView
+                "Andromeda","Babylon 5","Logical Inputs","Afro Samurai","Ninja Scroll","Assassin"};   //data to put in ListView
         //create list adapter to adapt array & generate rows of ListView
         ListAdapter theAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,favoriteTVShows);//this, exampleLayout,array obj
 
